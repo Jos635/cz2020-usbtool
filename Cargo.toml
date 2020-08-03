@@ -1,0 +1,20 @@
+[package]
+name = "cz2020-usbtool"
+version = "0.1.0"
+authors = ["Jos <Jos635@outlook.com>"]
+edition = "2018"
+
+[dependencies]
+buf_redux = { version = "0.8", features = ["slice-deque"]}
+tokio = { version = "0.2", features = ["full"] }
+thiserror = "1.0"
+structopt = "0.3"
+log = "0.4"
+env_logger = "0.7"
+fuse = "0.3"
+libc = "0.2"
+time = "0.1"
+crossbeam = "0.7"
+termios = "0.3.2"
+nix = "0.18"
+rusb = "0.6"
